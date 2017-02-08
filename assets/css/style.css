@@ -1,0 +1,135 @@
+* {
+	max-width: 960px;
+	margin: auto;
+	text-align: center;
+	color: #777777;
+	font-style: serif;
+	box-sizing: border-box;
+}
+
+header{
+	display: inline-block;
+	border-top: solid black 15px;
+	border-bottom: solid #cccccc 1px;
+	width: 100%;
+	background-color: #ffffff;
+	clear: both;
+
+}
+
+
+body {
+	background-image: url("../images/extra-clean-paper.png");
+	max-width: 100%;
+	/*overflow: auto;*/
+	}
+
+h1{
+	background-color:#4aaaa5;
+	color:#f0f0f0;
+	font-size: 30px;
+	float: left;
+	margin-left: 30px;
+	padding: 20px;
+}
+
+#links{
+	list-style-type: none;
+	margin:20px;
+	margin-right: 30px;
+	/*overflow: hidden;*/
+}
+
+li a {
+	float: right;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	height: 20px;
+	width: 100px;
+}
+
+#main-content{
+	overflow: auto;
+	display: inline;
+	float: left;
+	margin: auto;
+	margin-left: 30px;
+	margin-top: 30px;
+	text-align: left;
+	height: auto;
+	background-color: #ffffff;
+	max-width: 650px;
+	padding: 30px;
+	clear: both;
+}
+#headshot{
+	float: left;
+	padding-right:10px;
+}
+
+h2{
+	color: #4aaaa5;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+#main-content h2:after{
+	content: "";
+	display: block;
+	position: center;
+	background-color: #cccccc;
+	height: 2px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+p{
+	line-height: 1.5;
+	text-align: left;
+}
+
+#sidebar{
+	background-color: #ffffff;
+	max-height:auto;
+	max-width:270px;
+	margin: auto;
+	float: left;
+	margin: 30px;
+	margin-right: 0px;
+	padding: 20px;
+	clear: right;
+}
+
+h3{
+	color: #4aaaa5;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#sidebar h3:after{
+	content: "";
+	display: block;
+	position: center;
+	background-color: #cccccc;
+	height: 2px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clear: both;
+}
+aside a{
+	text-decoration: none;
+	padding: 10px;
+}
+
+footer{
+	background-image: url("../images/use_your_illusion.png");
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+}
