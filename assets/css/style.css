@@ -78,7 +78,7 @@ h2{
 #main-content h2:after{
 	content: "";
 	display: block;
-	position: center;
+	position: left;
 	background-color: #cccccc;
 	height: 2px;
 	width: 100%;
@@ -89,6 +89,31 @@ h2{
 p{
 	line-height: 1.5;
 	text-align: left;
+}
+
+#main-content form{
+	text-align: left;
+}
+
+#main-content input{
+	max-width: 650px;
+}
+/*work on this Portfolio sect*/
+#Portfolio{
+	display: inline-block;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	max-height: 800px;
+	background-color: #ffffff;
+	max-width: 650px;
+	/*padding: 30px;*/
+	overflow: auto;
+	clear: both;
+}
+#portfolio a img {
+	overflow: auto;
+	padding: 50px;
 }
 
 #sidebar{
